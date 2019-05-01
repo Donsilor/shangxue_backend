@@ -1,0 +1,139 @@
+2018/07/17 23:20:47.198504 [INFO] qbox.us/cc/config/load_conf.go:40: Use the config file of  service.conf
+[GIN-debug] [WARNING] Now Gin requires Go 1.6 or later and Go 1.7 will be required soon.
+
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+2018/07/17 23:20:47 [INFO][geedooweb.com/geedooweb/shangxue] main.go:56: ./
+[GIN-debug] GET    /api/ping                 --> main.main.func1 (6 handlers)
+[GIN-debug] GET    /api/version              --> main.main.func2 (6 handlers)
+[GIN-debug] POST   /api/login                --> geedooweb.com/geedooweb/shangxue/api.(*Service).PostLoginUser-fm (6 handlers)
+[GIN-debug] GET    /api/sign                 --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetWxSign-fm (6 handlers)
+[GIN-debug] GET    /api/auth                 --> geedooweb.com/geedooweb/shangxue/api.(*Service).WxAuth-fm (6 handlers)
+[GIN-debug] GET    /api/users                --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetUsers-fm (6 handlers)
+[GIN-debug] GET    /api/users/:userId        --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetUser-fm (6 handlers)
+[GIN-debug] PUT    /api/users/:userId/jiafen --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutUserJiaFen-fm (6 handlers)
+[GIN-debug] PUT    /api/users/:userId/sign   --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutUserSign-fm (6 handlers)
+[GIN-debug] PUT    /api/users/:userId/games  --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutUserGames-fm (6 handlers)
+[GIN-debug] GET    /api/users/:userId/gamesRecords --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetUserGamesRecords-fm (6 handlers)
+[GIN-debug] DELETE /api/users/:userId        --> geedooweb.com/geedooweb/shangxue/api.(*Service).DeleteUser-fm (6 handlers)
+[GIN-debug] PUT    /api/users/:userId/exchange --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutUserExchange-fm (6 handlers)
+[GIN-debug] GET    /api/classes              --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetClasses-fm (6 handlers)
+[GIN-debug] POST   /api/classes              --> geedooweb.com/geedooweb/shangxue/api.(*Service).PostClasses-fm (6 handlers)
+[GIN-debug] PUT    /api/classes/:id          --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutClasses-fm (6 handlers)
+[GIN-debug] GET    /api/classes/:id          --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetClass-fm (6 handlers)
+[GIN-debug] DELETE /api/classes/:id          --> geedooweb.com/geedooweb/shangxue/api.(*Service).DeleteClasses-fm (6 handlers)
+[GIN-debug] GET    /api/bills                --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetBills-fm (6 handlers)
+[GIN-debug] POST   /api/bills                --> geedooweb.com/geedooweb/shangxue/api.(*Service).PostBills-fm (6 handlers)
+[GIN-debug] PUT    /api/bills/:id            --> geedooweb.com/geedooweb/shangxue/api.(*Service).PutBills-fm (6 handlers)
+[GIN-debug] GET    /api/bills/:id            --> geedooweb.com/geedooweb/shangxue/api.(*Service).GetBill-fm (6 handlers)
+[GIN-debug] DELETE /api/bills/:id            --> geedooweb.com/geedooweb/shangxue/api.(*Service).DeleteBills-fm (6 handlers)
+2018/07/17 23:20:47 [INFO][geedooweb.com/geedooweb/shangxue] main.go:150: listening on :8010 use http
+[GIN-debug] Listening and serving HTTP on 0.0.0.0:8010
+[GIN] 2018/07/17 - 23:22:01 | 200 |     388.575µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:22:20 | 200 |     293.443µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:29:30 | 200 |     267.956µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:29:54 | 200 |       270.7µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:31:36 | 200 |     314.284µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:34:34 | 200 |     245.412µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:34:41 | 200 |     249.967µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:36:55 | 200 |     278.286µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:40:14 | 200 |     343.758µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:40:38 | 200 |     389.739µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:42:46 | 200 |     316.392µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:44:23 | 200 |     298.083µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:46:06 | 200 |     336.853µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:47:28 | 200 |     303.803µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:47:58 | 404 |     539.001µs |       127.0.0.1 | POST     /api/login?token=null
+2018/07/17 23:48:10 [INFO][geedooweb.com/geedooweb/shangxue/api] api.go:49: PostLogin data jwt.PostLogin{Success:true, Error:"OK", UserId:"user_6qwM0dZ7FqYHmFtiqGwx", CurrentAuthority:"", From:""}
+[GIN] 2018/07/17 - 23:48:10 | 200 |     586.938µs |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/07/17 - 23:48:11 | 200 |    1.085145ms |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/07/17 - 23:48:13 | 200 |     326.241µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:48:15 | 200 |     413.435µs |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/07/17 - 23:48:31 | 200 |     311.417µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:52:23 | 200 |   17.461116ms |       127.0.0.1 | POST     /api/classes?token=undefined
+[GIN] 2018/07/17 - 23:52:23 | 200 |     476.259µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:52:40 | 200 |     479.145µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:52:41 | 200 |     498.727µs |       127.0.0.1 | POST     /api/classes?token=undefined
+[GIN] 2018/07/17 - 23:52:41 | 200 |     447.628µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:52:46 | 200 |     439.354µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:52:51 | 200 |     514.329µs |       127.0.0.1 | POST     /api/classes?token=undefined
+[GIN] 2018/07/17 - 23:52:51 | 200 |     480.829µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:52:56 | 200 |      451.17µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:52:59 | 200 |     459.912µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:53:29 | 200 |      496.09µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:53:41 | 200 |     489.668µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:53:56 | 200 |     446.546µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:53:59 | 200 |     466.973µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:03 | 200 |     508.875µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:19 | 200 |     456.151µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:32 | 200 |     474.563µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:43 | 200 |     473.561µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:48 | 200 |      433.14µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:52 | 200 |     442.802µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:54:54 | 200 |      457.63µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:55:09 | 200 |     467.905µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:56:23 | 200 |     520.556µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:56:27 | 200 |     475.323µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:56:31 | 200 |     482.852µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:57:10 | 200 |     510.103µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/17 - 23:57:57 | 200 |     529.221µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:58:28 | 200 |     496.478µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/17 - 23:59:00 | 200 |     505.047µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 00:00:48 | 200 |     453.398µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 00:05:37 | 200 |     575.818µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 00:06:13 | 200 |     601.392µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 00:06:32 | 200 |     485.791µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 00:07:10 | 200 |     526.865µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 00:07:17 | 200 |     469.031µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 00:22:44 | 200 |     449.978µs |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/07/18 - 00:22:45 | 200 |     536.155µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 10:55:34 | 200 |    3.910043ms |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 10:58:41 | 404 |    1.694113ms |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/07/18 - 10:58:47 | 200 |     517.759µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 10:58:57 | 200 |     482.349µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 10:59:11 | 200 |     485.568µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 10:59:17 | 404 |     394.469µs |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/07/18 - 10:59:24 | 200 |     440.948µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+2018/07/18 10:59:24 [INFO][geedooweb.com/geedooweb/shangxue/api] api.go:49: PostLogin data jwt.PostLogin{Success:true, Error:"OK", UserId:"user_6qwM0dZ7FqYHmFtiqGwx", CurrentAuthority:"", From:""}
+[GIN] 2018/07/18 - 10:59:24 | 200 |     782.156µs |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/07/18 - 10:59:27 | 200 |     500.843µs |   183.200.5.107 | GET      /api/classes?all=true&token=null
+[GIN] 2018/07/18 - 10:59:27 | 200 |     429.853µs |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/07/18 - 10:59:42 | 200 |     477.579µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+2018/07/18 11:00:01 [INFO][geedooweb.com/geedooweb/shangxue/api] api.go:49: PostLogin data jwt.PostLogin{Success:true, Error:"OK", UserId:"user_6qwM0dZ7FqYHmFtiqGwx", CurrentAuthority:"", From:""}
+[GIN] 2018/07/18 - 11:00:01 | 200 |     462.127µs |   183.200.5.107 | POST     /api/login?token=null
+[GIN] 2018/07/18 - 11:00:05 | 200 |     421.826µs |   183.200.5.107 | GET      /api/users?token=undefined
+[GIN] 2018/07/18 - 11:00:14 | 200 |       446.4µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:00:29 | 200 |     418.688µs |   183.200.5.107 | GET      /api/users?token=undefined
+[GIN] 2018/07/18 - 11:08:28 | 200 |      485.62µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:08:31 | 200 |     468.998µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:08:43 | 200 |     466.945µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:09:11 | 200 |     457.601µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:09:29 | 200 |     445.553µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:21:47 | 200 |     478.001µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:22:09 | 200 |     532.534µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:29:39 | 200 |     515.083µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/18 - 11:30:13 | 200 |     441.124µs |   183.200.5.107 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/29 - 09:59:25 | 200 |   88.912302ms |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/07/29 - 10:01:23 | 200 |     504.142µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/08/02 - 14:34:35 | 200 |   90.020972ms |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:35:35 | 200 |     526.451µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:36:18 | 200 |     501.203µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:37:11 | 200 |     470.819µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:37:31 | 200 |     438.747µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:37:33 | 200 |     416.169µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:37:41 | 200 |     477.416µs |       127.0.0.1 | GET      /api/classes?all=true&token=null
+[GIN] 2018/08/02 - 14:44:24 | 404 |    5.103124ms |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/08/02 - 14:48:41 | 200 |     509.382µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/08/02 - 14:49:01 | 200 |     499.222µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/08/02 - 14:49:05 | 200 |     419.802µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/08/02 - 14:49:06 | 200 |     532.399µs |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/08/02 - 14:49:31 | 200 |     460.069µs |       127.0.0.1 | GET      /api/users?token=null
+2018/08/02 14:49:37 [INFO][geedooweb.com/geedooweb/shangxue/api] api.go:49: PostLogin data jwt.PostLogin{Success:true, Error:"OK", UserId:"user_6qwM0dZ7FqYHmFtiqGwx", CurrentAuthority:"", From:""}
+[GIN] 2018/08/02 - 14:49:37 | 200 |    1.583626ms |       127.0.0.1 | POST     /api/login?token=null
+[GIN] 2018/08/02 - 14:49:53 | 200 |      491.54µs |       127.0.0.1 | GET      /api/classes?all=true&token=undefined
+[GIN] 2018/08/02 - 14:49:56 | 200 |     436.335µs |       127.0.0.1 | GET      /api/users?token=undefined
+[GIN] 2018/09/28 - 12:30:16 | 200 |   20.091874ms |       127.0.0.1 | GET      /api/classes?all=true&token=null
